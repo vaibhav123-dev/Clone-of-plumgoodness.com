@@ -1,0 +1,111 @@
+/* slideMenu */
+/* toggle */
+.sideMenu .login {
+  position: absolute;
+  top: 18px;
+  color: #5e0c8c;
+  font-weight: 100;
+  padding-left: 25px;
+  font-size: 18px;
+}
+.sideMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(247, 241, 241);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding-left: 2px;
+}
+
+.sideMenu .closebtn1 {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideMenu .closebtn1 {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #5e0c8c;
+}
+
+@media screen and (max-height: 450px) {
+  .sideMenu {
+    padding-top: 15px;
+  }
+  .sideMenu a {
+    font-size: 18px;
+  }
+}
+/* accordion */
+.accord {
+  max-width: 800px;
+}
+.accord .contentBx {
+  position: relative;
+}
+.accord .contentBx .label {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  color: #5e0c8c;
+  font-family: calibri;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.accord .contentBx .content span {
+  position: absolute;
+  right: 50px;
+}
+.accord .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 60px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.accord .contentBx.active .label::before {
+  content: "-";
+}
+.accord .contentBx .content {
+  position: relative;
+  height: 0;
+  overflow: auto;
+  transition: 0.3s;
+  overflow-y: auto;
+}
+.accord .contentBx .content label {
+  line-height: 25px;
+  font-size: 17px;
+  font-family: calibri;
+}
+.accord .contentBx.active .content {
+  height: 150px;
+  padding: 10px;
+  padding-left: 55px;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
