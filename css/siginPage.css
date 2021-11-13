@@ -1,0 +1,111 @@
+#container {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container>h1 {
+    margin-top:160px;
+    font-size: 50px;
+    text-align: center;
+
+    color: #5e0c8c;
+}
+
+#main {
+    width: 100%;
+    height: 80%;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#main>div:nth-child(1) {
+    border-right: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+#main input {
+    width: 80%;
+    height: 9%;
+    border-radius: 5px;
+    border-color: #00000027;
+    border-width: thin;
+    background-color: #f8f8f8;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.heading {
+    margin: 0;
+    margin-bottom: 4%;
+    color: #5e0c8c;
+}
+
+#forgot {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.makeCenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button1 {
+    color: whitesmoke;
+    background-color: #5e0c8c;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    width: 25%;
+    height: 10%;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.forLogin {
+    height: 10%;
+    width: 60%;
+    margin-top: 1%;
+}
+
+.insideDiv {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#google {
+    background-color: #dd4b39;
+}
+
+#fb{
+    background-color: #4267b2;
+}
+
+.setText {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.iconSet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+i{
+    text-align: center;
+}
