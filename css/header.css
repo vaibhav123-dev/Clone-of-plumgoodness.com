@@ -1,0 +1,93 @@
+/* header css */
+.top {
+    height: 30px;
+    background-color: #5e0c8c;
+    color: white;
+    font-family: calibri;
+    text-align: center;
+    line-height: 27px;
+  }
+  .header1 {
+    height: 140px;
+    background-color: white;
+    min-width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .logo {
+    height: 110px;
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+  }
+  .search {
+    height: 110px;
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+  .logo img {
+    width: 125px;
+    margin-right: 20px;
+    padding-bottom: 8px;
+    /* border-bottom: 4px solid #5e0c8c; */
+  }
+  
+  .logo i {
+    font-size: 28px;
+    position: relative;
+    bottom: 37px;
+    margin-right: 60px;
+  }
+  .logo3 img {
+    width: 80px;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .search input {
+    padding: 12px;
+    width: 230px;
+    border-radius: 7px;
+    border-color: #5e0c8c;
+    border-width: 1px;
+    margin-right: 30px;
+    margin-top: 33px;
+    margin-left: 14px;
+  }
+  ::placeholder {
+    color: #5e0c8c;
+    opacity: 0.7;
+    font-size: 17px;
+    font-family: calibri;
+  }
+  .search input + img {
+    width: 30px;
+    position: absolute;
+    left: 58%;
+    top: 35%;
+  }
+  .bag {
+    width: 20px;
+    position: absolute;
+    left: 70%;
+    top: 31%;
+  }
+  /* slide show css */
+  .mySlides {
+    display: none;
+  }
+  
+  .fade img {
+    vertical-align: middle;
+  }
+  /* @media only screen and (max-width: 900px) {
+   .header1 {
+      height:200px;
+    }
+  } */
