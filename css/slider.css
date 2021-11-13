@@ -93,8 +93,15 @@ overflow-y: hidden; */
   border-radius: 8px;
   margin-left: 5%;
 }
+#slidercontviewbtn a {
+  text-decoration: none;
+  color:#60298b;
+}
+
 #slidercontviewbtn:hover {
   background-color: #60298b;
+}
+#slidercontviewbtn a:hover{
   color: white;
 }
 /* sliderCss */
@@ -151,7 +158,7 @@ overflow-y: hidden; */
   background-color: rgb(94, 12, 140);
   width: 70%;
   padding: 10px;
-  margin-left: 5px;
+  margin-left: 38px;
   border-radius: 8px;
   color: white;
   font-size: 19px;

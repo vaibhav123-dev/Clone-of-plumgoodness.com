@@ -1,28 +1,35 @@
 #sliderconttwo {
-    background: url("//cdn.shopify.com/s/files/1/0390/2985/files/What_s_new_BG.jpg?v=1620197156");
-    text-align: center;
-    width: 100%;
-  }
-  
+  background: url("//cdn.shopify.com/s/files/1/0390/2985/files/What_s_new_BG.jpg?v=1620197156");
+  text-align: center;
+  width: 100%;
+}
+
 .ctrl-btn.pro-prev-two {
-    left: 0;
-  }
-  
-  .ctrl-btn.pro-next-two{
-    right: 0;
-  }
-  .slidercontviewbtn2 {
-    background-color: white;
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 3%;
-    border-radius: 8px;
-    padding:15px;
-    margin-left: 5%;
-  }
-  .slidercontviewbtn2:hover {
-    background-color: #60298b;
-    color: white;
-  }
+  left: 0;
+}
+
+.ctrl-btn.pro-next-two {
+  right: 0;
+}
+.slidercontviewbtn2 a {
+  text-decoration: none;
+  color: #60298b;
+}
+.slidercontviewbtn2 a:hover {
+  color: white;
+}
+
+.slidercontviewbtn2 {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3%;
+  border-radius: 8px;
+  padding: 15px;
+  margin-left: 5%;
+}
+.slidercontviewbtn2:hover {
+  background-color: #60298b;
+}
