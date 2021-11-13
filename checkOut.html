@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plum paraben-free natural skincare products</title>
+    <link rel="shortcut icon" href="icon.png" />
+    <link rel="stylesheet" href="css/checkOut.css" />
+    <link rel="stylesheet" href="css/gototop.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+
+  <body>
+    <a href="#" id="gototop"><i class="fad fa-angle-double-up"></i></a>
+    <div id="mainForTop">
+      <div id="pointerDiv">
+        <div></div>
+        <div class="pointerText setCenter" id="pointer1">Information</div>
+        <div class="pointerText setCenter" id="pointer2">Payment</div>
+      </div>
+      <div id="imgAndLogo">
+        <div class="floatRight">
+          <img
+            width="40%"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn_4SIh4K3VITL3UMZ2hbpmO1ZmM4ZNCYHz9xm6xh4_Y2jftzJmQq45EeAG8tjvkm_XF8&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            width="100%"
+            height="75%"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_7gsuKf74rzqxbCEczSWW4xO9qdF9jW-zHA&usqp=CAU"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div id="mainForForm">
+      <div id="leftSide">
+        <div class="halfGrid">
+          <div class="textSize20 color705">Contact information</div>
+          <div class="floatRight" id="login">
+            Already have an account? Log in
+          </div>
+        </div>
+        <input
+          class="fullLength setBorder setLeftBorders"
+          type="text"
+          placeholder="Email"
+        />
+        <input class="checkBox setBorder" type="checkbox" />
+        <label class="click">Email me with news and offers</label>
+        <p class="textSize20 color705">Shoping Address</p>
+        <input
+          class="halfLength setBorder setLeftBorders"
+          type="text"
+          placeholder="First Name"
+        />
+        <input
+          class="halfLength setBorder setLeftBorders"
+          type="text"
+          placeholder="Last Name"
+        />
+        <input
+          class="fullLength setBorder setLeftBorders"
+          type="text"
+          placeholder="Address"
+        />
+        <input
+          class="fullLength setBorder setLeftBorders"
+          type="text"
+          placeholder="Apartment, suite, etc. (optional)"
+        />
+        <input
+          class="fullLength setBorder setLeftBorders"
+          type="text"
+          placeholder="City"
+        />
+        <input
+          class="thirdLength setBorder setLeftBorders"
+          type="text"
+          placeholder="Country/region"
+        />
+        <input
+          class="thirdLength setBorder setLeftBorders"
+          type="text"
+          placeholder="State"
+        />
+        <input
+          class="thirdLength setBorder setLeftBorders"
+          type="number"
+          placeholder="PIN code"
+        />
+        <input
+          class="fullLength setBorder setLeftBorders"
+          type="number"
+          placeholder="Phone"
+        />
+
+        <input class="checkBox setBorder" type="checkbox" />
+        <label class="click">Save this information for next time</label>
+        <button id="Paymentbtn">Place Order</button>
+        <div id="bottomDiv">
+          <div class="setCenter">Refund policy</div>
+          <div class="setCenter">Shiping policy</div>
+          <div class="setCenter">Privacy policy</div>
+          <div class="setCenter">Terms of service</div>
+        </div>
+      </div>
+      <div id="rightSide">
+        <div class="setCenter colorText">
+          Hey plumster! Do not forget to sign up or log in to earn and redeem
+          your reward points.
+        </div>
+        <div id="thirdGrid">
+          <div><img src="" alt="" /></div>
+          <div class="setCenter">
+            <h5>
+              Plum BodyLovin' Beachy & Vanilla Vibes Body Oil Duo | Instant Glow
+              + Intense Moisture | Non-greasy
+            </h5>
+          </div>
+          <div class="floatRight color705">
+            <p>₹935.00</p>
+          </div>
+        </div>
+        <div id="discountGrid">
+          <div class="setCenter">
+            <input
+              class="setDiscountDiv setBorder"
+              type="text"
+              placeholder="  Discount code"
+            />
+          </div>
+          <div class="setCenter">
+            <button id="applyBtn" class="setDiscountDiv setBorder">
+              Apply
+            </button>
+          </div>
+        </div>
+        <div class="halfGrid">
+          <div>
+            <p class="floatLeft color705">Subtotal</p>
+            <p class="setZero color705">
+              Shiping <span><i class="fas fa-question-circle"></i></span>
+            </p>
+          </div>
+          <div>
+            <p class="textRight color705">₹935.00</p>
+            <p class="miniText textRight">Calculated at next step</p>
+          </div>
+        </div>
+        <div class="halfGrid">
+          <div>
+            <p class="floatLeft color705">Total</p>
+            <p class="miniText">Including ₹142.63 in taxes</p>
+          </div>
+          <div class="floatRight h3Color">
+            <h3>₹935.00</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script
+  src="https://kit.fontawesome.com/7d41c29fcc.js"
+  crossorigin="anonymous"
+></script>
+<script>
+  document.getElementById("Paymentbtn").addEventListener("click", function () {
+    alert("Order Successfully Placed");
+    window.location.href = "home.html";
+  });
+</script>
