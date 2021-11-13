@@ -1,0 +1,247 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#mainForTop {
+  width: 75%;
+  height: 220px;
+
+}
+
+#pointerDiv {
+  height: 40px;
+  display: grid;
+  grid-template-columns: 35% 30% 30%;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+#pointer1 {
+  background: #5e0c8a;
+}
+
+#pointer2 {
+  background: #d8e3f6;
+}
+
+#pointer2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+#pointer2:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #d8e3f6;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+#pointer1:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #5e0c8a;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.pointerText {
+  color: white;
+  font-size: 18px;
+  position: relative;
+}
+
+.setCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imgAndLogo {
+  display: grid;
+  height: 71%;
+  grid-template-columns: 28% 55%;
+  justify-content: space-between;
+}
+
+#mainForForm {
+  width: 100%;
+  height: 740px;
+  display: grid;
+  grid-template-columns: 57% 43%;
+}
+
+#leftSide {
+  padding: 5% 7% 0 22%;
+}
+
+#rightSide {
+  padding: 1% 28% 0 5%;
+  background-color: #fafafa;
+}
+
+.halfGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.floatRight {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#login {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.textSize20 {
+  font-size: 19px;
+  margin-bottom: 1%;
+}
+
+.fullLength {
+  width: 98.7%;
+}
+
+.click {
+  margin-bottom: 5%;
+  color: rgba(0, 0, 0, 0.644);
+  font-size: 13px;
+}
+
+.halfLength {
+  width: 48.2%;
+}
+
+.thirdLength {
+  width: 31.4%;
+}
+
+#Paymentbtn {
+  float: right;
+  height: 50px;
+  background-color: #5e0c8c;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 65px;
+  border: 0;
+}
+
+#bottomDiv {
+  width: 100%;
+  height: 5%;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 18%;
+  gap: 1.5%;
+  margin-top: 150px;
+  border-top: 1px solid #00000027;
+}
+
+#bottomDiv > div {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.checkBox {
+  margin: 2% 0 4% 0;
+}
+
+.setBorder {
+  border-width: thin;
+  border-radius: 5px;
+  border-color: #00000027;
+}
+
+.setLeftBorders {
+  height: 5%;
+  margin-top: 2%;
+}
+
+#rightSide {
+  margin-top: 3.5%;
+  display: grid;
+  grid-template-rows: repeat(5, 11%);
+  border-left: 1px solid #00000027;
+}
+
+#rightSide > div {
+  border-top: 1px solid #00000027;
+}
+
+#rightSide > div:nth-child(1) {
+  border: 0;
+}
+
+.miniText {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.514);
+  margin-top: -13px;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.floatLeft {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.color705 {
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.setZero {
+  line-height: 0;
+  font-size: 15px;
+}
+
+#discountGrid {
+  display: grid;
+  grid-template-columns: 74% 22%;
+  justify-content: space-between;
+}
+
+.setDiscountDiv {
+  width: 100%;
+  height: 50%;
+}
+
+#thirdGrid {
+  display: grid;
+  grid-template-columns: 18% 60% 18%;
+  justify-content: space-between;
+}
+
+#applyBtn {
+  background-color: #5e0c8c;
+  color: white;
+  border: 0;
+}
+
+.h3Color {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 19px;
+}
+
+.colorText {
+  color: #5e0c8c;
+}
