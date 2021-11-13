@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.banner {
+  min-width: 100%;
+  object-fit: cover;
+  margin-top: 130px;
+}
+.banner img {
+  height: 202.55px;
+  border: none;
+}
+.header {
+  width: 100%;
+}
+.header > div {
+  max-width: 1200px;
+  width: 1200px;
+  margin-left: 159.6px;
+  margin-right: 159.6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.title {
+  color: rgb(94, 12, 140);
+  font-size: 60px;
+  font-weight: 400px;
+  line-height: 60px;
+  padding-top: 26px;
+  text-align: center;
+  text-size-adjust: 100%;
+  font-family: "Roboto Slab", serif;
+}
+#productContainer {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  background-color: #ebe0f0;
+}
+#sortfilter {
+  width: 270px;
+  height: 635px;
+  max-width: 25%;
+  margin-left: 10%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#producttoShow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  width: 930px;
+  max-width: 75%;
+  margin-top: 40px;
+  padding-left: 50px;
+}
+.sortby {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.sortby label {
+  font-size: 18px;
+  font-weight: 500px;
+  font-family: calibri;
+  padding-top: 4px;
+}
+#selectSort {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  width: 187px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-family: calibri;
+  padding-left: 10px;
+  border-color: #ebe0f0;
+}
+#maindiv {
+  width: 260px;
+  height: 390px;
+  background-color: white;
+  border-radius: 11px;
+  font-family: "Segoe UI";
+}
+#div1 {
+  width: 92%;
+  height: 140px;
+  padding-left: 10px;
+}
+#maindiv > img {
+  width: 150px;
+  padding-left: 50px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+#rating {
+  margin-bottom: 15px;
+  padding-left: 38px;
+}
+#rating span {
+  color: purple;
+  height: 40px;
+}
+#rating + div {
+  line-height: 1.5em;
+  height: 3em;
+  white-space: wrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  font-family: "Segoe UI";
+  text-align: center;
+}
+#rating + div + div + div {
+  width: 100%;
+  text-align: center;
+  line-height: 2.9em;
+  font-size: 18px;
+}
+#dash {
+  border: 1px solid purple;
+  background-color: purple;
+  width: 80px;
+  margin-left: 83px;
+}
+#maindiv button {
+  background-color: rgb(94, 12, 140);
+  width: 70%;
+  padding: 10px;
+  margin-left: 38px;
+  border-radius: 8px;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#offer {
+  float: right;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  background-color: rgb(209, 168, 214);
+  color: rgb(94, 12, 140);
+  font-weight: bold;
+  width: 45px;
+  height: 60px;
+  margin-right: 10px;
+  margin-top: 0px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+#imgdiv {
+  padding-left: 45px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#imgdiv:hover img {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+#imgdiv img {
+  transition: transform 0.2s ease;
+}
+#maindiv button:hover {
+  background-color: rgb(152, 10, 235);
+}
+.accordion {
+  max-width: 100%;
+  background-color: white;
+  border-radius: 9px;
+  margin-top: 5px;
+}
+.accordion .contentBx {
+  position: relative;
+  border-top: 1px solid #dddfe0;
+  border-bottom: #dee1e4;
+}
+.accordion .contentBx .label {
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: calibri;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.accordion .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.accordion .contentBx.active .label::before {
+  content: "-";
+}
+.accordion .contentBx .content {
+  position: relative;
+  height: 0;
+  overflow: auto;
+  transition: 0.3s;
+  overflow-y: auto;
+}
+.accordion .contentBx.active .content {
+  height: 100px;
+  padding: 20px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.accordion h2 {
+  color: #4b5563;
+  font-weight: 100;
+  position: relative;
+  left: 39%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-family: calibri;
+}
+.content input,
+label {
+  margin: 5px;
+  font-family: calibri;
+  font-size: 17px;
+  font-weight: 100;
+}
+.star {
+  color: orange;
+}
+#gototop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  font-size: 40px;
+}
+.last {
+  padding-bottom: 15px;
+}
