@@ -1,0 +1,104 @@
+/* footer */
+footer {
+    padding-top: 30px;
+    height: 270px;
+    background-color: #fff7ec;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    grid-template-columns: 5% 15% 15% 15% 35% 5%;
+    grid-gap: 2%;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #details {
+    text-align: center;
+  }
+  
+  #details > h3 {
+    font-size: 22px;
+    font-family: calibri;
+    font-weight: 550;
+    color: #2a3235;
+  }
+  
+  .text > p {
+    padding-top: 12px;
+    font-size: 16px;
+    font-family: calibri;
+  }
+  
+  #details > input {
+    height: 35px;
+    width: 220px;
+    border-radius: 8px;
+    border-color: #e3abf9;
+    margin-top: 10px;
+    font-family: calibri;
+    font-size: 14px;
+  }
+  
+  input + button {
+    background-color: #5e0c8c;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 8px;
+    border: 0;
+    font-family: calibri;
+    font-size: 16px;
+  }
+  
+  #logoAndNumber {
+    display: grid;
+    border-top: 1px solid rgba(0, 0, 0, 0.226);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    margin-top: 5%;
+    grid-template-columns: 47% 5% 43%;
+    grid-gap: 2%;
+  }
+  
+  #logo {
+    display: grid;
+    justify-content: right;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 1%;
+  }
+  
+  #logo > div {
+    padding: 25% 10% 15% 10%;
+  }
+  
+  #logo > div:nth-child(4) {
+    padding: 32% 10%;
+    padding-bottom: 0;
+  }
+  
+  #number {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    margin: 11% 0%;
+  }
+  
+  #pipe {
+    height: 60%;
+    width: 5%;
+    margin: 50% 40%;
+    background-color: rgba(0, 0, 0, 0.664);
+  }
+  
+  .mail {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .rights {
+    background-color: #d9c4e3;
+    height: 80px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    padding-top: 20px;
+    font-family: calibri;
+  }
