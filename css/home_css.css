@@ -1,0 +1,208 @@
+html {
+  scroll-behavior: smooth;
+}
+#gototop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: purple;
+  font-size: 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* slide show css */
+.mySlides {
+  display: none;
+}
+
+.fade img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  margin-top: 130px;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+/* pick a plum */
+.header {
+  width: 100%;
+}
+.header > div {
+  max-width: 1200px;
+  width: 1200px;
+  margin-left: 159.6px;
+  margin-right: 159.6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.title {
+  color: #661991;
+  font-size: 50px;
+  font-weight: 300px;
+  line-height: 50px;
+  padding-bottom: 26px;
+  text-align: center;
+  text-size-adjust: 100%;
+  font-family: "Roboto Slab", serif;
+}
+.grid {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e e";
+  gap: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+#items-1 {
+  grid-area: a;
+}
+#items-2 {
+  grid-area: b;
+}
+#items-3 {
+  grid-area: c;
+}
+#items-4 {
+  grid-area: d;
+}
+#items-5 {
+  grid-area: e;
+}
+.plum {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.plum:hover img {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.plum img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+/* clean real good */
+.cleanrealgood {
+  margin-top: 30px;
+  height: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15%;
+  background-color: #d9c4e3;
+}
+.picture {
+  width: 26%;
+  height: 70%;
+  margin-right: 28px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+.picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.bttn {
+  background-color: white;
+  width: 220px;
+  height: 50px;
+  border-radius: 15px;
+  margin-left: 422px;
+  margin-top: 15px;
+  border-color: white;
+  font-size: 18px;
+  color: rgb(109, 6, 109);
+  font-weight: bold;
+  border: 0;
+}
+.bttn:hover {
+  background-color: rgb(77, 8, 117);
+  color: white;
+}
+
